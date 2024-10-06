@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c008ff08c56d03468b74b617f2d8698, type: 3}
+  m_Name: Teacher
+  m_EditorClassIdentifier: 
+  speakerName: "\u041F\u0440\u0435\u043F\u043E\u0434"
+  nameColor: {r: 0.37756515, g: 0.6037736, b: 0.3503026, a: 1}
