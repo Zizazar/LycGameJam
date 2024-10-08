@@ -7,7 +7,7 @@ public class DialogueBarController : MonoBehaviour
 {
     public TMP_Text characterNameComp;
     public TMP_Text textComp;
-    public float textSpeed = 0.05f;
+    public float textSpeed = 0.0f;
 
     private int phraseIndex = -1;
     private GameScene currentScene;

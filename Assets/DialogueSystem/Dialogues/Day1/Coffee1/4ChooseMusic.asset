@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d041a7f41f45f854cbf55f9d1fac52de, type: 3}
-  m_Name: ChooseCoffee
+  m_Name: 4ChooseMusic
   m_EditorClassIdentifier: 
   labels:
-  - text: "\u0418\u0434\u0442\u0438 \u043D\u0435 \u0431\u043E\u0434\u0440\u044B\u043C"
-    nextScene: {fileID: 11400000, guid: 224e7e6e71a2ffa4cbb663e539709dbf, type: 2}
-  - text: "\u0417\u0430\u0439\u0442\u0438 \u0432 \u043A\u043E\u0444\u0435\u0439\u043D\u044E"
-    nextScene: {fileID: 11400000, guid: 48b5463542c10934ebdcfc5c3f57f918, type: 2}
+  - text: "\u041A\u043B\u0430\u0441\u0441\u0438\u043A\u0430"
+    nextScene: {fileID: 11400000, guid: 8bfcc65595738134f8a633ae01caf575, type: 2}
+  - text: "\u041C\u0435\u0442\u0430\u043B\u043B\u0438\u043A\u0430"
+    nextScene: {fileID: 0}
+  - text: "\u0414\u0430\u0439\u0442\u0435 \u0442\u0430\u043D\u043A"
+    nextScene: {fileID: 0}
   bgm: {fileID: 0}

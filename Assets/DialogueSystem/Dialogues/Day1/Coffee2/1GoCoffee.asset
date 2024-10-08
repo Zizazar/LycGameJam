@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83f15d0b2f15f754f96e42321a6e2c5f, type: 3}
-  m_Name: GoCoffee
+  m_Name: 1GoCoffee
   m_EditorClassIdentifier: 
   phrases:
   - text: "\u041D\u0430\u0434\u043E \u0432\u0437\u0431\u043E\u0434\u0440\u0438\u0442\u0441\u044F.
@@ -26,4 +26,4 @@ MonoBehaviour:
     bgm: {fileID: 0}
     hideCharacter: 0
   Background: {fileID: 0}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 83ab0252ecdee6640a333d38467828e5, type: 2}
