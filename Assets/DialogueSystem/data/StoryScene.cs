@@ -17,6 +17,7 @@ public class StoryScene : GameScene
         public Speaker speaker;
         public Animation animation;
         public AudioClip bgm;
+        public bool hideCharacter;
     }
 }
 

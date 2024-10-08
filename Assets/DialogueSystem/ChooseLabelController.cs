@@ -11,30 +11,30 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
     public Color defaultColor;
     public Color hoverColor;
     public StoryScene scene;
-    
+
     private TMP_Text textComp;
     private Image backImageComp;
+    public RectTransform transformComp;
     private ChooseController controller;
 
     void Start()
     {
         backImageComp = GetComponent<Image>();
-        backImageComp.color = defaultColor;
-    }
 
-    public float GetHeight()
-    {
-        return textComp.rectTransform.sizeDelta.y * textComp.rectTransform.localScale.y;
-    }
+       
+        backImageComp.color = defaultColor;
+}
+
 
     public void Setup(ChooseScene.ChooseLabel label, ChooseController controller, float y)
     {
+        transformComp = GetComponent<RectTransform>();
+        textComp = GetComponentInChildren<TMP_Text>();
         scene = label.nextScene;
         textComp.text = label.text;
         this.controller = controller;
-        Vector3 pos = textComp.rectTransform.localPosition;
-        pos.y = y;
-        textComp.rectTransform.localPosition = pos;
+
+        transform.Translate(new Vector3(0,y,0)); //Ура я нашёл способ поднять это
     }
 
     public void OnPointerClick(PointerEventData eventData)

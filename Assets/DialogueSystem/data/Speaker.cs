@@ -8,5 +8,6 @@ public class Speaker : ScriptableObject
 {
     public string speakerName;
     public Color nameColor;
+    public Sprite sprite;
 
 }

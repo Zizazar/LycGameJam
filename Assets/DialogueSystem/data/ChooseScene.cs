@@ -8,6 +8,7 @@ using UnityEngine;
 public class ChooseScene : GameScene
 {
     public List<ChooseLabel> labels;
+    public AudioClip bgm;
 
     [System.Serializable]
     public struct ChooseLabel
