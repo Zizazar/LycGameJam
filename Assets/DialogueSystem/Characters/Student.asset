@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: "\u041B\u0438\u0446\u0435\u0438\u0441\u0442"
   nameColor: {r: 0.802819, g: 0.8113208, b: 0.36356357, a: 1}
+  sprite: {fileID: 21300000, guid: ba9b9507e74408c46ad3c19bf6e63ece, type: 3}

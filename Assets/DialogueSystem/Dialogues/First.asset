@@ -16,6 +16,12 @@ MonoBehaviour:
   - text: Hello World
     speaker: {fileID: 11400000, guid: b96e2977a56d11b4d98abcf3cbeeb345, type: 2}
     animation: {fileID: 0}
+    bgm: {fileID: 8300000, guid: b696ac46e03b9cc44a0fa97e69283b77, type: 3}
+    hideCharacter: 0
+  - text: Hello Worldfe
+    speaker: {fileID: 11400000, guid: b96e2977a56d11b4d98abcf3cbeeb345, type: 2}
+    animation: {fileID: 0}
     bgm: {fileID: 0}
+    hideCharacter: 0
   Background: {fileID: 21300000, guid: d13a6292bfc268a4b9d3669e173cceb7, type: 3}
   nextScene: {fileID: 11400000, guid: e3dd6158cfdbcf549990390bbdbc83ec, type: 2}
